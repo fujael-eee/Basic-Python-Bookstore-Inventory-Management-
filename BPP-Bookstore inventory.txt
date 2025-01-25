@@ -1,0 +1,24 @@
+As it is indicated about Object oriented programming
+##In the code there should be imported the os for file detection and deletion.
+
+#There should be two classes . First one is about identifying the particular single book 
+#Other one should be about the inventory where the collection of books will be managed by the user 
+
+##In the book class there should be included the title,author and price using __init__ method
+##__str__ method will make it easy to display details of the books
+
+
+## Inventory class will manage a list of books and files to save in the inventory file. 
+
+##Add_book , View_book , Update_book , Delete_book methods are added in the inventory class to 
+add,display,update books details using it's index and delete a book from the list by it's index.
+
+#Save_inventory , Load_inventory  will write and read all books in a text file if it exists.
+We will define these things using def keyword and add necessary read/write/append etc modes as required.
+
+## File handling is done using os.path.exists to check whether it exists or not.
+## Menu is created using a while loop to display a menu for choosing add,view,update and delete options.
+
+
+
+
