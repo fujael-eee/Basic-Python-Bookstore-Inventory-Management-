@@ -1,23 +1,26 @@
-As it is indicated about Object oriented programming
-##In the code there should be imported the os for file detection and deletion.
+Project Name: Bookstore Inventory Management.
 
-#There should be two classes . First one is about identifying the particular single book 
-#Other one should be about the inventory where the collection of books will be managed by the user 
+Solution: In this project , we follow some steps-
 
-##In the book class there should be included the title,author and price using __init__ method
-##__str__ method will make it easy to display details of the books
+Step-1: In the code there should be imported the os for file detection and deletion.
 
+Step-2: There should be two classes. First one is about identifying the particular single book 
+        and other one should be about the inventory where the collection of books will be managed by the user. 
 
-## Inventory class will manage a list of books and files to save in the inventory file. 
+Step-3: In the book class there should be included three attributes like title, author and price using __init__ method
+        and __str__ method will make it easy to display details of the books.
 
-##Add_book , View_book , Update_book , Delete_book methods are added in the inventory class to 
-add,display,update books details using it's index and delete a book from the list by it's index.
+Step-4. Inventory class will manage a list of books and files to save in the inventory file. 
 
-#Save_inventory , Load_inventory  will write and read all books in a text file if it exists.
-We will define these things using def keyword and add necessary read/write/append etc modes as required.
+Step-5: Add_book , View_book , Update_book , Delete_book methods are added in the inventory class to 
+        add, display, update books details using it's index and delete a book from the list by it's index.
 
-## File handling is done using os.path.exists to check whether it exists or not.
-## Menu is created using a while loop to display a menu for choosing add,view,update and delete options.
+Step-6: Save_inventory , Load_inventory  will write and read all books in a text file respectively if it exists .
+        We will define these things using def keyword and add necessary read/write/append etc modes as required.
+
+Step-7: File handling is done using os.path.exists to check whether it exists or not.
+
+Step-8: Menu is created using a while loop to display a menu for choosing add, view, update, delete and save exit options.
 
 
 
